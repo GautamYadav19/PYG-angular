@@ -7,10 +7,11 @@ import { AppService } from '../services/app.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  slider:any=0;
-  constructor(private appServices:AppService) { 
-    this.appServices.getFlagForSilder.subscribe((data)=>{
-      this.slider=data
+  slider: any = 0;
+
+  constructor(private appServices: AppService) {
+    this.appServices.getFlagForSilder.subscribe((data) => {
+      this.slider = data
     })
   }
 

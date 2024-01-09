@@ -6,15 +6,18 @@ import { ProductDetailsIndexComponent } from './components/product-details/produ
 import { CheckoutIndexComponent } from './components/checkout/checkout-index/checkout-index.component';
 import { CartIndexComponent } from './components/cart/cart-index/cart-index.component';
 import { ContactusIndexComponent } from './components/contactus/contactus-index/contactus-index.component';
+import { LoginComponent } from './components/Auth/login/login.component';
+import { RegisterationComponent } from './components/Auth/registeration/registeration.component';
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
-  {path:'pyg/shop',component:ShopIndexComponent},
-  {path:'pyg/details',component:ProductDetailsIndexComponent},
-  {path:'pyg/checkout',component:CheckoutIndexComponent},
-  {path:'pyg/cart',component:CartIndexComponent},
-  {path:"pyg/contactus",component:ContactusIndexComponent}
-
+  { path: '', component: HomeComponent },
+  { path: 'pyg/shop', component: ShopIndexComponent },
+  { path: 'pyg/details', component: ProductDetailsIndexComponent },
+  { path: 'pyg/checkout', component: CheckoutIndexComponent },
+  { path: 'pyg/cart', component: CartIndexComponent },
+  { path: "pyg/contactus", component: ContactusIndexComponent },
+  { path: "login", component: LoginComponent },
+  {path :"Register",component:RegisterationComponent}
 ];
 
 @NgModule({
