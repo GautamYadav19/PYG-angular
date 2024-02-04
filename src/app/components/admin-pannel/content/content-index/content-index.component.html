@@ -1,1 +1,157 @@
-<p>content-index works!</p>
+<h4 class="py-3 mb-4">
+    <span class="text-muted fw-light">eCommerce / Add product</span>
+</h4>
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-3">
+    <div class="d-flex flex-column justify-content-center">
+        <h4 class="mb-1 mt-3">
+            add a new product
+        </h4>
+        <p>Orders placed across your store</p>
+    </div>
+    <div class="d-flex align-content-center flex-wrap gap-3">
+        <button class="btn btn-outline-secondary waves-effect m-2 " id="color-01">DISCARD</button>
+        <BUtton class="btn btn-outline-primary waves-effect m-2">Save draft</BUtton>
+        <button class="btn btn-primary waves-effect waves-light m-2">Publish product</button>
+    </div>
+</div>
+<div class="row  ">
+    <div class="col-lg-8 col-md-12 p-3 mb-5 bg-white rounded" style="background-color: red;">
+        <h5 class="text-muted fw-light m-2">Product information</h5>
+
+        <form action="">
+            <!-- <div class="input-container">
+                <input type="text" class="form-control" id="myInput">
+                <label for="myInput" class="label ">Product Name</label>
+            </div> -->
+            <!-- <span class="label">Name</span>
+            <input type="text" class="" placeholder="Name"> -->
+            <div class="form-row mt-2">
+                <div class="col">
+                    <div class="input-container">
+                        <input type="text" class="form-control input" id="myInput">
+                        <label for="myInput" class="label ">Name </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-container">
+                        <input type="text" class="form-control input" id="myInput">
+                        <label for="myInput" class="label ">Category</label>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="mt-2">
+                <hr>
+                <h6 class="text-muted fw-light mb-2">Product Description</h6>
+
+                <div class="row px-xl-5">
+                    <div class="col">
+                        <div class="nav nav-tabs  border-secondary mb-4">
+                            <a class="nav-item nav-link active" data-toggle="tab" href="#tab-pane-1">list Formate</a>
+                            <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-2">Table Formate</a>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="tab-pane-1">
+                                <p class="text-muted fw-light" style="font-size: small;">(Add a new line when you want a
+                                    new line in user-pannel)
+                                </p>
+                                <div class="input-container">
+                                    <input type="text" class="form-control input" id="myInput">
+                                    <label for="myInput" class="label ">Name </label>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-outline-secondary mt-2" id="color-01">Add line</button>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-2">
+                                <p class="text-muted fw-light" style="font-size: small;">(Add a new line when you want a
+                                    new line in user-pannel)
+                                </p>
+                                <div class="form-row mt-2">
+                                    <div class="col">
+                                        <div class="input-container">
+                                            <input type="text" class="form-control input" id="myInput">
+                                            <label for="myInput" class="label ">Name </label>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="input-container">
+                                            <input type="text" class="form-control input" id="myInput">
+                                            <label for="myInput" class="label ">Category</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row row mt-2">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="extra header">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="extra right side">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-outline-secondary mt-2" id="color-01">Add line</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <hr>
+
+            </div>
+
+            <div class="card mt-3 mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0 card-title">Media</h5>
+                    <a href="#" class="fw-medium">Add media from URL</a>
+                </div>
+                <div class="card-body ">
+
+                    <div class="">
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-lg-4 col-md-12 p-3 mb-5 bg-white rounded">
+        <h5 class="text-muted fw-light m-2">Product information</h5>
+
+        <form action="">
+            <div class="input-container">
+                <input type="text" class="form-control input" id="myInput">
+                <label for="myInput" class="label ">Real Price</label>
+            </div>
+            <div class="form-row mt-2">
+                <div class="col">
+                    <div class="input-container">
+                        <input type="text" class="form-control input" id="myInput">
+                        <label for="myInput" class="label ">Fake price</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-container">
+                        <input type="text" class="form-control input" id="myInput">
+                        <label for="myInput" class="label ">percentage(%)</label>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-3">
+
+            <div class="form-check mt-2">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                    Charge tax on this product
+                </label>
+            </div>
+
+
+        </form>
+    </div>
+</div>

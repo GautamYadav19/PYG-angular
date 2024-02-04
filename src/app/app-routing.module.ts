@@ -9,13 +9,13 @@ import { ContactusIndexComponent } from './components/contactus/contactus-index/
 import { WishlistIndexComponent } from './components/wishlist/wishlist-index/wishlist-index.component';
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
-  {path:'pyg/shop',component:ShopIndexComponent},
-  {path:'pyg/details',component:ProductDetailsIndexComponent},
-  {path:'pyg/checkout',component:CheckoutIndexComponent},
-  {path:'pyg/cart',component:CartIndexComponent},
-  {path:"pyg/contactus",component:ContactusIndexComponent},
-  {path:'pyg/wishlist',component:WishlistIndexComponent}
+  { path: '', component: HomeComponent },
+  { path: 'pyg/shop', component: ShopIndexComponent },
+  { path: 'pyg/details', component: ProductDetailsIndexComponent },
+  { path: 'pyg/checkout', component: CheckoutIndexComponent },
+  { path: 'pyg/cart', component: CartIndexComponent },
+  { path: "pyg/contactus", component: ContactusIndexComponent },
+  { path: 'pyg/wishlist', component: WishlistIndexComponent }
 
 ];
 
